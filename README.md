@@ -1,6 +1,6 @@
 # flex
 
-## 메모
+### 메모
 
 - flex-box에서 부모가 아닌 자식 요소에 margin을 직접 주는 것은 룰 위반
 - flex-direction 기본 속성은 row이다 (reverse) 속성도 있다
