@@ -1,18 +1,28 @@
 body {
   margin: 0;
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3px;
 }
 
 .box {
-  width: 20px;
-  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: tomato;
+  color: aliceblue;
+  font-size: 2rem;
 }
+
+/* .box:first-child {
+  background-color: tomato;
+  flex-grow: 1;
+}
+
+.box:last-child {
+  background-color: teal;
+  flex-grow: 2;
+} */
