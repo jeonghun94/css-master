@@ -21,3 +21,5 @@
   ￼![](/public/flex-wrap.png)
 - flex-basis 기본 값을 주는거다. width와 다른점을 주축을 기준으로 한다.
   flex:(flex-grow) (flex-shrink) (flex-basis)
+
+- 
